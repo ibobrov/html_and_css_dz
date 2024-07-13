@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+</head>
+<body>
+<main>
+	<section>
+		<h1>Регистрация</h1>
+		<div>
+			<p>Уже есть аккаунт? <a href="/sing-in">Войти</a></p>
+		</div>
+
+		<div>
+			<form action="/sing-up" method="post">
+				<div>
+					<label for="company"></label>
+					<input type="text" id="company" name="company" placeholder="Компания">
+				</div>
+
+				<div>
+					<label for="firstName"></label>
+					<input type="text" id="firstName" name="firstName" placeholder="Имя">
+
+					<label for="secondName"></label>
+					<input type="text" id="secondName" name="secondName" placeholder="Фамилия">
+				</div>
+
+				<label for="email"></label>
+				<input type="email" id="email" name="email" placeholder="E-mail">
+
+				<button type="submit">Зарегистрироваться</button>
+
+				<input type="checkbox" id="accept" name="accept">
+				<label for="accept">
+					Я прочитал и принимаю <a href="#">Условия использования</a>
+				</label>
+			</form>
+		</div>
+	</section>
+</main>
+</body>
+</html>
