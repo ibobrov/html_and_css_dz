@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Registration</title>
+	<link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 <main>
@@ -21,10 +22,10 @@
 
 				<div>
 					<label for="firstName"></label>
-					<input type="text" id="firstName" name="firstName" placeholder="Имя">
+					<input class="radiusOnlyLeft" type="text" id="firstName" name="firstName" placeholder="Имя">
 
 					<label for="secondName"></label>
-					<input type="text" id="secondName" name="secondName" placeholder="Фамилия">
+					<input class="radiusOnlyRight" type="text" id="secondName" name="secondName" placeholder="Фамилия">
 				</div>
 
 				<div>
@@ -34,7 +35,7 @@
 
 				<button type="submit">Зарегистрироваться</button>
 
-				<div>
+				<div id="acceptDiv">
 					<input type="checkbox" id="accept" name="accept">
 					<label for="accept">
 						Я прочитал и принимаю <a href="#">Условия использования</a>

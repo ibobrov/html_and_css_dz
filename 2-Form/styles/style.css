@@ -1,0 +1,83 @@
+body {
+    background-color: #F39494;
+    font-family: Open Sans, sans-serif;
+    padding-top: 225px;
+}
+
+section {
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    height: 573px;
+    padding-top: 72px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    height: 54px;
+}
+
+h1 + div {
+    margin-bottom: 47px;
+}
+
+h1 + div p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+    color: #089FE0;
+}
+
+input {
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    height: 44px;
+    margin-bottom: 22px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:  22px;
+}
+
+input:focus {
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+}
+
+input.radiusOnlyLeft {
+    border-radius: 5px 0 0 5px;
+}
+
+input.radiusOnlyRight {
+    border-radius: 0 5px 5px 0;
+}
+
+input[type = checkbox] {
+    margin: 0;
+    height: 19px;
+}
+
+div#acceptDiv label {
+    color: #EEEEEE;
+}
+
+div#acceptDiv a {
+    text-decoration: none;
+}
