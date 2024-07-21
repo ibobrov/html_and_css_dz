@@ -1,19 +1,25 @@
-* {
-    font-family: Roboto, sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #121928;
+}
+
+img {
+    height: 600px;
 }
 
 header {
-     margin: 80px 0;
+    margin: 80px 0;
 }
 
 footer {
     margin: 0 0 80px 0;
+    text-align: center;
+    font-size: 16px;
 }
 
-body {
-    background-color: #121928;
+footer p {
+    margin: 0 0 0 0;
 }
 
 nav ul {
@@ -22,52 +28,79 @@ nav ul {
     margin: 0;
 }
 
-*.mar-bot-28px {
-    margin: 0 0 28px 0;
-    padding: 0;
+p, span, a, h1 {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0;
 }
 
-*.mar-bot-14px {
-    margin: 0 0 14px 0;
-    padding: 0;
+a {
+    text-decoration: none;
 }
 
-*.text-size-20px {
-    font-size: 20px;
+p a {
+    text-decoration: underline;
 }
 
-*.text-size-18px {
-    font-size: 18px;
+/* Не подходит здесь, уберу когда узнаю как на flex сделать*/
+section.article {
+    text-align: center;
 }
 
-*.text-size-16px {
-    font-size: 16px;
-}
-
-*.text-size-14px {
+p.article__topic-and-date {
     font-size: 14px;
+    margin: 0 0 14px 0;
+    opacity: 0.6;
+
 }
 
-*.line-height-32px {
-    line-height: 32px;
+h1.article__title {
+    margin: 0 auto 30px;
+    width: 525px;
+    line-height: 38px;
 }
 
-*.icon-rounded {
+div.article__author {
+    margin: 0 0 28px 0;
+}
+
+img.article__author__icon {
     border-radius: 50%;
-}
-
-*.icon-50x50 {
     height: 50px;
     width: 50px;
 }
 
-*.height-600px {
-    height: 600px;
+div.article__author__name {
+    font-size: 16px;
+    margin: 0 0 14px 0;
 }
 
-/* Не подходит здесь, уберу когда узнаю как на flex сделать*/
-*.text-center {
-    text-align: center;
+div.article__author__name p {
+    line-height: 25px;
+}
+
+div.article__author__name p.author-grade {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+img.article__img {
+    margin-bottom: 28px;
+}
+
+section.article__text-section {
+    max-width: 708px;
+    margin: 0 auto 28px;
+}
+
+section.article__text-section p {
+    font-size: 16px;
+}
+
+section.article__text-section p.first-p {
+    font-size: 20px;
+    line-height: 32px;
 }
 
 input#search {
