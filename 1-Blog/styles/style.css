@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #121928;
+}
+
+img {
+    height: 600px;
+}
+
+header {
+    margin: 80px 0;
+}
+
+footer {
+    margin: 0 0 80px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 0 0 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p, span, a, h1 {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+/* Не подходит здесь, уберу когда узнаю как на flex сделать*/
+section.article {
+    text-align: center;
+}
+
+p.article__topic-and-date {
+    font-size: 14px;
+    margin: 0 0 14px 0;
+    opacity: 0.6;
+
+}
+
+h1.article__title {
+    margin: 0 auto 30px;
+    width: 525px;
+    line-height: 38px;
+}
+
+div.article__author {
+    margin: 0 0 28px 0;
+}
+
+img.article__author__icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+div.article__author__name {
+    font-size: 16px;
+    margin: 0 0 14px 0;
+}
+
+div.article__author__name p {
+    line-height: 25px;
+}
+
+div.article__author__name p.author-grade {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+img.article__img {
+    margin-bottom: 28px;
+}
+
+section.article__text-section {
+    max-width: 708px;
+    margin: 0 auto 28px;
+}
+
+section.article__text-section p {
+    font-size: 16px;
+}
+
+section.article__text-section p.first-p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+input#search {
+    background-color: #121928;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
