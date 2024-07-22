@@ -43,6 +43,20 @@ p a {
     text-decoration: underline;
 }
 
+span.logo__img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #4B5563;
+    padding: 8px 13px 5px 11px;
+    box-sizing: border-box;
+    font-family: Source Sans Pro, sans-serif;
+
+}
+
 /* Не подходит здесь, уберу когда узнаю как на flex сделать*/
 section.article {
     text-align: center;
